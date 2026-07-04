@@ -20,6 +20,7 @@ class Program
         else if (grade >= 70)
         {
             finalGrade = "C";
+            Console.WriteLine("yes");
         
         }
         else if (grade >= 60)
