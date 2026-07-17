@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
+        Fraction sansNum = new Fraction();
+        sansNum.SetTopNumber(10);
+        Console.WriteLine(sansNum.GetTopNumber());
+        
     }
 }
