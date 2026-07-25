@@ -22,7 +22,7 @@ public class Customer
         return _address.IsInAmerica();
     }
 
-    public string CustomerResidence()
+    public string GetCustomerResidence()
     {
         return $"{_name}, Living at {_address.DisplayAddress()}";
     }

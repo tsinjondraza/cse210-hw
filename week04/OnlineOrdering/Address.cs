@@ -6,10 +6,10 @@ public class Address
     private string _country;
     public Address(string street, string city, string province, string country)
     {
-        _streetAddress = street;
-        _city = city;
-        _province = province;
-        _country = country;
+        _streetAddress = street.Trim();
+        _city = city.Trim();
+        _province = province.Trim();
+        _country = country.Trim();
     }
     public bool IsInAmerica()
     {
@@ -18,6 +18,6 @@ public class Address
 
     public string DisplayAddress()
     {
-        return $"{_streetAddress}, {_city}, {_province} ({_country}) ";
+        return $"{_streetAddress},\n{_city} {_province},\n{_country}";
     }
 }
