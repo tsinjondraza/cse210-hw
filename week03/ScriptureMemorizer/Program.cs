@@ -1,3 +1,6 @@
+//The HideRandomWords method allows to have five additional words hidden each time it is called,
+//If the word randomly selected to be hidden is already hidden, the value of i is diminished by 1 point,
+//The program works correctly
 using System;
 
 class Program
