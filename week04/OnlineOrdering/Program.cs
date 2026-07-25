@@ -8,12 +8,12 @@ Product product5 = new("Eggs", "FT032946K532", 0.76, 24);
 Product product6 = new("Bread", "AP204512G599", 2, 10.5);
 Customer tsinjo = new("Tsinjondraza Tranombiby", "13 Rue Patrice Lumumba, Tsaralalana, Antananarivo, Madagascar");
 List<Product> tsinjoLists = new List<Product>
-    {
-        product1,
-        product2,
-        product3,
-        product6
-    };
+{
+    product1,
+    product2,
+    product3,
+    product6
+};
 Customer francis = new("Francis Emaneke", "10 Parktown Rd, Manhattan, New York, USA");
 List<Product> francisLists = new List<Product>
 {

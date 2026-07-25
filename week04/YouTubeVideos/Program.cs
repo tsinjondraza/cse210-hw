@@ -33,7 +33,7 @@ class Program
             comment1,
             comment5
         };
-        
+
         List<Video> videoList = new List<Video>();
         Video video1 = new("Salala", "Ry Lanitra mangamanga", 240, salalaComments);
         Video video2 = new("Billy", "Don't let the sun go down on me", 300, billyComments);
@@ -53,7 +53,6 @@ class Program
             }
             Console.WriteLine("");
             Console.WriteLine("");
-            
         }
     }
 }

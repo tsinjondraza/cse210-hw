@@ -42,7 +42,4 @@ public class Order
         }
         return label;
     }
-
-
-
 }

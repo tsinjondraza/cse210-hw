@@ -19,5 +19,4 @@ public class Product
     {
         return $"{_name}, ID: {_productId}";
     }
-
 }
