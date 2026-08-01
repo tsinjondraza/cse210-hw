@@ -35,7 +35,7 @@ public class BreathingActivity : Activity
         }
         base.DisplayEndingMessage();
         base.ShowSpinner(7);
-        //Console.Clear();
+        Console.Clear();
 
     }
 }

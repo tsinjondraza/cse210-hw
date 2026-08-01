@@ -51,7 +51,7 @@ public class ReflectingActivity : Activity
     }
     public void DisplayQuestion()
     {
-        Console.Write($"> {GetRandomQuestion()}");
+        Console.WriteLine($"> {GetRandomQuestion()}");
         base.ShowSpinner(6);
     }
     public void Run()
@@ -74,7 +74,6 @@ public class ReflectingActivity : Activity
             while (remainingSecond > 0)
             {
                 DisplayQuestion();
-                //Thread.Sleep(6000);
                 remainingSecond -= 6;
             }
         }

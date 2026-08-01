@@ -1,7 +1,7 @@
 using static System.Runtime.InteropServices.JavaScript.JSType;
 public class ListingActivity : Activity
 {
-    private int _count;
+    // private int _count;
     private List<string> _prompts;
     List<string> prompts = new List<string>
     {
