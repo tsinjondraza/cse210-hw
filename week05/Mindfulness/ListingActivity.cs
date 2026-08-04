@@ -17,7 +17,6 @@ public class ListingActivity : Activity
         _description = "This activity will help you reflect on the many good things in your life by having you list as many things as you can in a certain area.";
         _duration = 10;
         _prompts = prompts;
-        _count = 0;
     }
     private string GetRandomPrompt()
     {
